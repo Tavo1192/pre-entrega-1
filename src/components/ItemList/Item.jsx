@@ -2,6 +2,7 @@ import React from "react";
 import MyButton from "../MyButton/MyButton";
 import ToggleButton from "../ToggleButton/ToggleButton";
 import "./item.css";
+import "./itemlist.css";
 
 function Item({ title, imgurl, price, color }) {
   return (
@@ -14,8 +15,7 @@ function Item({ title, imgurl, price, color }) {
         <h3>{title}</h3>
         <p>${price}</p>
       </div>
-
-      <MyButton color={color}>Ver más</MyButton>
+        <MyButton color={color}>Ver más</MyButton>
     </div>
   );
 }
