@@ -1,9 +1,18 @@
+import { useState, useEffect } from "react";
+
 import Item from "./Item"
 import "./itemlist.css";
-import "./item.css";
-import products from "../Data/data";
+import getItems from "../Services/mockService";
 
 function ItemListConteiner() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+  getItems().then((respuestaDatos) => {
+    setProducts(respuestaDatos)
+  });
+}, []);
+
   return (
     <div className="item-list">
       {
@@ -23,6 +32,5 @@ function ItemListConteiner() {
       }
     </div>
   );
-}
-
+    }
 export default ItemListConteiner;
