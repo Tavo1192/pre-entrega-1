@@ -5,7 +5,7 @@ function MyButton(props) {
   let [colorBtn, setColorBtn] = useState(props.color);
 
   function handleClick() {
-    setColorBtn("#555");
+    setColorBtn ("#555");
   }
 
   return (

@@ -4,7 +4,7 @@ import "./navbar.css";
 
 
 function NavBar() {
-  return (
+    return (
     <nav className="nav-menu">
         <ul className="nav-list">
             <li>

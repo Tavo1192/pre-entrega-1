@@ -4,7 +4,7 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 import "./item.css";
 import "./itemlist.css";
 
-function Item({ title, imgurl, price, color }) {
+function Item({ title, imgurl, price, color, }) {
   return (
     <div className="card">
       <ToggleButton icon="♥" />
