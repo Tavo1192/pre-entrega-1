@@ -11,7 +11,7 @@ function getItems() {
 export function getSigleItems() {
     return new Promise((resolve) => {
     setTimeout(() => {
-            resolve(products[3]);
+            resolve(products[2]);
         }, 2000);
     });
 }

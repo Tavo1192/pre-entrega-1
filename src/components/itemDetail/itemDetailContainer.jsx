@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-
-import Item from "./Item"
 import "./itemlist.css";
 import { getSigleItems } from "../Services/mockService";
+import ItemDetailConteiner from "../ItemDetailConteiner";
 
 function itemDetailConteiner() {
 const [products, setProduct] = useState([]);
@@ -14,16 +13,12 @@ async function getItemsAsync() {
 }
 
 useEffect(() => {
-getItems().then((respuestaDatos) => {
-    setProduct(respuestaDatos)
-});
+    getItemsAsync();
 }, []);
 
-return (
-    <div className="item-list">
-        <h3>{product.title}</h3>
-        <img src={product.thumbnail}/>
-    </div>
-);
-    }
-export default itemDetailConteiner;
+
+
+return <ItemDetail product={products} />;
+}
+    
+export default ItemDetailConteiner;
