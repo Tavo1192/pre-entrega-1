@@ -1,24 +1,32 @@
 import { useState, useEffect } from "react";
-import "./itemlist.css";
-import { getSigleItems } from "../Services/mockService";
-import ItemDetailConteiner from "../ItemDetailConteiner";
+import { getSingleItem } from "../Services/mockService";
+import "./itemDetail.css";
 
-function itemDetailConteiner() {
-const [products, setProduct] = useState([]);
 
-async function getItemsAsync() {
-    let respuesta = await getSigleItems();
+
+
+
+
+
+function ItemDetailContainer() {
+  const [product, setProduct] = useState([]);
+
+  async function getItemsAsync() {
+    let respuesta = await getSingleItem();
     setProduct(respuesta);
+  }
 
-}
-
-useEffect(() => {
+  useEffect(() => {
     getItemsAsync();
-}, []);
+  }, []);
 
-
-
-return <ItemDetail product={products} />;
+  return (
+    <div className="item-list">
+      <h3>{product.title}</h3>
+      <img src={product.thumbnail}
+       />
+    </div>
+  );
 }
-    
-export default ItemDetailConteiner;
+
+export default ItemDetailContainer;

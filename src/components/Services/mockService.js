@@ -8,7 +8,7 @@ function getItems() {
     });
 }
 
-export function getSigleItems() {
+export function getSingleItem() {
     return new Promise((resolve) => {
     setTimeout(() => {
             resolve(products[2]);

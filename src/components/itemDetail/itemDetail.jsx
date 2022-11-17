@@ -1,10 +1,11 @@
-import "./itemdetail.css";
+import "./itemDetail.css";
+import "./itemList.css";
 
 function ItemDetail({ product }) {
     return (
     <div className="card-detail">
     <div className="card-detail_img">
-    <img src={product.imgurl} alt="Product img" />
+    <img src={product.thumbnail} alt="Product img" />
     </div>
     <div className="card-detail_detail">
         <h2>{product.title}</h2>

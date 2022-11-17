@@ -1,4 +1,11 @@
-.card-detail_img{
+.item-list{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+
+/* .card-detail_img{
     height: 310px;
     object-fit: cover;
 }
@@ -29,4 +36,4 @@ small{
 }
 .card-detail_muted{
     color: #8c8c8e
-}
+} */
