@@ -2,12 +2,6 @@ import { useState, useEffect } from "react";
 import { getSingleItem } from "../Services/mockService";
 import "./itemDetail.css";
 
-
-
-
-
-
-
 function ItemDetailContainer() {
   const [product, setProduct] = useState([]);
 
@@ -23,8 +17,9 @@ function ItemDetailContainer() {
   return (
     <div className="item-list">
       <h3>{product.title}</h3>
-      <img src={product.thumbnail}
-       />
+      <h5>{product.description}</h5>
+      <img src={product.thumbnail}/>
+      <p>${product.price}</p>
     </div>
   );
 }

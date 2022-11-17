@@ -16,7 +16,7 @@ const products = [
         stock: 13,
         category: "Riñoneras",
         thumbnail: "https://http2.mlstatic.com/D_NQ_NP_806658-MLA50739213587_072022-W.webp",
-        description: "Medidas: 28cm x 18cm x 7cm. Capacidad: 3L Material Principal: Poliéster cire."
+        description: "-Medidas: 28cm x 18cm x 7cm. -Capacidad: 3L -Material Principal: Poliéster cire."
     },
     {
         i: 3,
