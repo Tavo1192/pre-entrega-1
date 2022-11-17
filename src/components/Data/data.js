@@ -54,6 +54,34 @@ const products = [
         thumbnail: "https://www.xlshop.com.ar/arquivos/ids/194332-1000-1000/XV1SYI24C0603.jpg?v=637727508300270000",
         description: "Material: 100% Símil Goma.Medidas: Largo 28 cm. Alto 39 cm. Prof. 12 cm.Acceso: Cierre.Color: Azul.Bolsillos internos: 1 c/ cierre.Bolsillos externos: 2 c/ cierre."
     },
+    {
+        i: 7,
+        title: "Mochila Boedo Bordeaux Tramado",
+        price: 2000,
+        stock: 12,
+        category: "Mochilas",
+        thumbnail: "https://d3ugyf2ht6aenh.cloudfront.net/stores/072/439/products/boedo-bordeaux-tramada-frente1-1b2d51a76a3600d65316424547960804-1024-1024.jpg",
+        description: ">> DIMENSIONES 43cm(alto) 30cm(ancho) 15cm(prof.) >> DIMENSIONES ESPACIO LAPTOP 43cm(alto) 29cm(ancho) >> CAPACIDAD 19 litros >> Es una mochila muy amplia, y si algún día necesitás trasladar más cosas podés soltarle los broches de los costados y el espacio se amplía"
+    },
+    {
+        i: 8,
+        title: "Riñonera Luján Verde Militar",
+        price: 2000,
+        stock: 12,
+        category: "Riñoneras",
+        thumbnail: "https://d3ugyf2ht6aenh.cloudfront.net/stores/072/439/products/lujan-verde1-1a02d701b72c8937b616033261846104-1024-1024.jpg",
+        description: " DIMENSIONES 29cm(ancho) 14cm(alto) 6cm(prof.) >> DIMENSIONES Bolsillo frontal 9cm(alto) 13cm(ancho) 4cm(prof.) >> MATERIAL Tela microfibra impermeable. Es una tela muy liviana y resistente. >> TIRA REGULABLE La tira es regulable para que la ajustes a tu gusto. >>BOLSILLO FRONTAL Bolsillo frontal independiente del cuerpo principal para las llaves, u objetos que quieras llevar separado >>CIERRES YKK Cuerpo principal y bolsillo frontal con cierre YKK."
+    },
+
+    {
+        i: 9,
+        title: "Matera Soldati Gris Tramado",
+        price: 2000,
+        stock: 12,
+        category: "Materas",
+        thumbnail: "https://d3ugyf2ht6aenh.cloudfront.net/stores/072/439/products/soldati-matera-gris-topo-tramada-51-ea53fde1833488de4916490910267480-1024-1024.jpg",
+        description: ">> DIMENSIONES 39cm (alto) 21cm (ancho frente) 27cm (ancho espalda) 12cm (prof.) >> CAPACIDAD 10.5 litros >> Tiene tamaño para termos de hasta 2 litros. En el interior tiene un elástico para poder agarrar el termo y que se mantenga firme. >>  Podés llevar la yerbera, mate, termo y algo rico para comer. >>Si algún día necesitás trasladar más cosas podés soltarle los broches de los costados y el espacio se amplía!"
+    },
 
 ];
 
