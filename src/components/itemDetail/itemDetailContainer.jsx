@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { getSingleItem } from "../Services/mockService";
-import "./itemDetail.css";
+import "./itemDetailContainer.css";
+
 
 function ItemDetailContainer() {
   const [product, setProduct] = useState([]);
@@ -15,11 +16,14 @@ function ItemDetailContainer() {
   }, []);
 
   return (
-    <div className="item-list">
-      <h3>{product.title}</h3>
-      <h5>{product.description}</h5>
-      <img src={product.thumbnail}/>
-      <p>${product.price}</p>
+    <div className="card-detail">
+    <div className="card-detail_img">
+    <img src={product.thumbnail} alt="Product img"/>
+    </div>
+    <div className="card-detail_detail"></div>
+    <h2>{product.title}</h2>
+        <p>{product.description}</p>
+        <h4 className="priceTag">$ {product.price}</h4>
     </div>
   );
 }
